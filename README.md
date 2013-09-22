@@ -1,4 +1,4 @@
-# Ruby + Mongo Development environment
+# Ruby and MongoDB Vagrant environment
 
 Put these Vagrantfile and Cheffile at the root directory of your project.
 
