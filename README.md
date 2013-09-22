@@ -2,14 +2,14 @@
 
 Put these Vagrantfile and Cheffile at the root directory of your project.
 
-install Librarian
-```gem install librarian-chef
+install Librarian `gem install librarian-chef`
 
-and run
-```librarian-chef install
-```vagrant up 
-this will start your vagrant box and you can check it by typing
-```vagrant ssh
+and run 
+```bash
+librarian-chef install
+vagrant up
+```
 
-also you can use
-```vagrant (halt|reload|destroy) -h
+this will start your vagrant box and you can check it by typing `vagrant ssh`
+
+also you can use `vagrant (halt|reload|destroy)` with -h key
